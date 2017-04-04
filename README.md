@@ -20,11 +20,12 @@ Last updated 4/4/17.
 
 ### Vendoring
 
-- While we wait for the official `go dep` tool from the Go team, there are several community options you can try:
--- `glide` (glide.sh) is similar to `npm` or `bundler` in usage if you're confortable with those tools already.
--- `govendor`
--- `gvt`
--- others
+While we wait for the official `go dep` tool from the Go team, there are several community options you can try:
+
+- `glide` (glide.sh) is similar to `npm` or `bundler` in usage if you're confortable with those tools already.
+- `govendor`
+- `gvt`
+
 
 ## Format & Style
 
