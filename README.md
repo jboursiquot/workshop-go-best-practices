@@ -132,7 +132,7 @@ Benefits of this project-agnostic layout include:
 
 - Use the standard library's `*testing.T` to write your tests (most of the time).
 - If you/team have a clear reason to use a TDD/BDD framework (e.g. Ginkgo/Gomega, Goconvey's DSL), than do so.
-- Design for testing, see [Advanced Testing with Go](https://www.youtube.com/watch?v=yszygk1cpEc) by Metchell Hashimoto
+- Design for testing, see [Advanced Testing with Go](https://www.youtube.com/watch?v=yszygk1cpEc) by Mitchell Hashimoto (use [test tables](https://github.com/hashicorp/terraform/blob/485455b2f2809afbbeda02dc44def0f64927e742/builtin/providers/template/datasource_template_file_test.go#L18))
 - Use small interfaces to model your dependencies.
 - Focus your tests on the actual behavior being tested (i.e. don't test the `http` transport the request came on to trigger your behavior)
 
